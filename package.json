@@ -1,0 +1,19 @@
+{
+  "name": "capital-gains",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^18.15.11",
+    "jest": "^29.5.0",
+    "jest-environment-node": "^29.5.0"
+  },
+  "scripts": {
+    "test": "jest src/**/authorizer.test.js",
+    "example": "node src/index.js < fixtures/input.txt"
+  },
+  "author": "",
+  "license": "ISC"
+}
